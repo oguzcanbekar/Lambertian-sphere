@@ -50,4 +50,4 @@ def sphere(first,second,third):
         
         plt.imshow(np.real(E), 'gray')
     
-sphere(0.1, 0.34, 0.98)
+sphere(0.15, 0, 0.94)
