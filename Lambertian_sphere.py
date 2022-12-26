@@ -49,5 +49,6 @@ def sphere(first,second,third):
         E = E / np.amax(E)
         
         plt.imshow(np.real(E), 'gray')
+        plt.show()
     
 sphere(0.15, 0, 0.94)
