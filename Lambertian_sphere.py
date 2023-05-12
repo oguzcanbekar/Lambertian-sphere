@@ -12,7 +12,7 @@ import numpy as np
 from numpy.lib import scimath as SM
 import matplotlib.animation as animation
 np.seterr(divide='ignore', invalid='ignore')
-
+import torch
 def sphere(first,second,third):
         xx = np.linspace(-75, 75, 1501)
         yy = np.linspace(-75, 75, 1501)
@@ -52,3 +52,4 @@ def sphere(first,second,third):
         plt.show()
     
 sphere(0.15, 0, 0.94)
+sphere(0.9, 0, 0.75)
